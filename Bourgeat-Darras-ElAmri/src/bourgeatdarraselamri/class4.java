@@ -24,7 +24,7 @@ public class class4 {
        //System.out.println("donner le chiffre :  ");  
        PasseZone a = new PasseZone(); 
        
-       try {
+     /*  try {
        double longeur = s.nextDouble();  
        if(longeur <0)
            throw new exepctionda(); 
@@ -35,13 +35,15 @@ public class class4 {
             System.out.println(e);
         } 
         
-       
+       */
        System.out.println("Bonjour, voulez-vous effectuer la validation d'opération, tapez 1 ou consultez l'historique de validation des passages, tapez 2  ");  
-       Scanner scanner = new 
-       scanchoix=scanner.nextInt();
        
        
-       switch ()
+       scanchoix=s.nextInt();
+       
+              System.out.println(scanchoix);  
+
+       //switch ()
        
         
     } 
