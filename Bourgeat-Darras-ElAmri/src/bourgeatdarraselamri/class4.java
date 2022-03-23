@@ -36,14 +36,36 @@ public class class4 {
         } 
         
        */
-       System.out.println("Bonjour, voulez-vous effectuer la validation d'opération, tapez 1 ou consultez l'historique de validation des passages, tapez 2  ");  
+            System.out.println("Bonjour, Voulez-vous créer un passeZone tapez 1 ou créer un passeTickets tapez 2 ");  
+  scanchoix=s.nextInt();
+       
+          
+       if( scanchoix==1)
+       {
+           
+       }
+               
+       if (scanchoix==2)
+       {
+           
+       }
+     
+       System.out.println("Voulez-vous effectuer la validation d'opération, tapez 1 ou consultez l'historique de validation des passages, tapez 2  ");  
        
        
        scanchoix=s.nextInt();
        
-              System.out.println(scanchoix);  
+              
 
-       //switch ()
+       if( scanchoix==1)
+       {
+           
+       }
+               
+       if (scanchoix==2)
+       {
+           
+       }
        
         
     } 

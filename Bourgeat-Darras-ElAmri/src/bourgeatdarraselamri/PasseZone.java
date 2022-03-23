@@ -56,7 +56,7 @@ public class PasseZone extends Passe {
         return new String("la zone 1 est activé : "+zone_1 + " | "+ "la zone 2 est activé : " + zone_2 + " | "+ "le passe est activé : " + act   ); 
     } 
     
-//    @Override
+    @Override
     public void charger() {
        
     }

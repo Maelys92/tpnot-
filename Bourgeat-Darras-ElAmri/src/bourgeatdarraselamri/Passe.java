@@ -15,6 +15,7 @@ public abstract class Passe {
     int numero;
     String Proprietaire ;
      ArrayList<Operation> liste;
+     
     public int geta(){
         return numero;
     }  
