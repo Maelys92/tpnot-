@@ -18,6 +18,8 @@ public class class4 {
     public static void main(String[] args) {
         // TODO code application logic here 
        int bouger = 23;
+       int scanchoix;
+       
        Scanner s = new Scanner(System.in);
        //System.out.println("donner le chiffre :  ");  
        PasseZone a = new PasseZone(); 
@@ -33,6 +35,13 @@ public class class4 {
             System.out.println(e);
         } 
         
+       
+       System.out.println("Bonjour, voulez-vous effectuer la validation d'opération, tapez 1 ou consultez l'historique de validation des passages, tapez 2  ");  
+       Scanner scanner = new 
+       scanchoix=scanner.nextInt();
+       
+       
+       switch ()
        
         
     } 
