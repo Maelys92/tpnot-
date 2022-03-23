@@ -10,18 +10,18 @@ import java.util.*;
  *
  * @author maely
  */
-public class CLASS2 extends CLASS1 {
+public class PasseZone extends Passe {
 
-    public  CLASS2 (){
-        this.a= 0;
-        b=2.5;
-        c= "la belle dame";
+    public  PasseZone (){
+        this.numero= 0;
+        
+        Proprietaire= "la belle dame";
     }
     
-    public  CLASS2(int m_a, double m_b, String m_c){
-    a=m_a;
-    b=m_b;
-    c=m_c;
+    public  PasseZone(int m_a, double m_b, String m_c){
+    numero=m_a;
+    
+    Proprietaire=m_c;
 }
     
    

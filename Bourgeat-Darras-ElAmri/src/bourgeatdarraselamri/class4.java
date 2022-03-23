@@ -12,14 +12,15 @@ import java.util.Scanner;
  * @author maely
  */
 public class class4 {
-    CLASS2 essaie;
+    PasseZone essaie;
     
    
     public static void main(String[] args) {
         // TODO code application logic here 
        int bouger = 23;
        Scanner s = new Scanner(System.in);
-       System.out.println("donner le chiffre :  ");  
+       //System.out.println("donner le chiffre :  ");  
+       PasseZone a = new PasseZone(); 
        
        try {
        double longeur = s.nextDouble();  

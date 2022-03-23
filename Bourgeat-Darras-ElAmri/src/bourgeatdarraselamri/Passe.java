@@ -11,34 +11,34 @@ import java.util.*;
  *
  * @author maely
  */
-public abstract class CLASS1 { 
-    int a;
-    double b;
-    String c ;
-    
+public abstract class Passe { 
+    int numero;
+    String Proprietaire ;
+     ArrayList<Operation> liste;
     public int geta(){
-        return a;
+        return numero;
     }  
     
     public void seta(int bou ){
-        a=bou;
+        numero=bou;
     } 
     
-    public double getb(){
-        return b;
+    public ArrayList<Operation> getoperation(){
+        return liste;
     }  
     
-    public void setb(double bou ){
-        b=bou;
+    public void setoperation(Operation bou ){
+        
     } 
     
     public String getc(){
-        return c;
+        return Proprietaire;
     } 
     
     public void setc(String bou){
-        c=bou;
+        Proprietaire=bou;
     }  
+    
     
     
 }
