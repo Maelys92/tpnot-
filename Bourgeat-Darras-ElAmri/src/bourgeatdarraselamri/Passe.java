@@ -40,6 +40,8 @@ public abstract class Passe {
         Proprietaire=bou;
     }  
     
+    public abstract void charger();
+    
     
     
 }

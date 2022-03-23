@@ -19,7 +19,8 @@ public class class4 {
         // TODO code application logic here 
        int bouger = 23;
        int scanchoix;
-       
+           int nombreOperations =0;
+
        Scanner s = new Scanner(System.in);
        //System.out.println("donner le chiffre :  ");  
        PasseZone a = new PasseZone(); 
@@ -42,12 +43,17 @@ public class class4 {
           
        if( scanchoix==1)
        {
-           
+          PasseZone PZone;
+          //PZone.charger();
+             nombreOperations ++;
+
        }
                
        if (scanchoix==2)
        {
-           
+           PasseTickets Ptickets;
+         //  Ptickets.charger();
+                 nombreOperations ++;
        }
      
        System.out.println("Voulez-vous effectuer la validation d'opération, tapez 1 ou consultez l'historique de validation des passages, tapez 2  ");  
@@ -64,7 +70,9 @@ public class class4 {
                
        if (scanchoix==2)
        {
-           
+          //Historique(nombreOperations);
+          
+          
        }
        
         
