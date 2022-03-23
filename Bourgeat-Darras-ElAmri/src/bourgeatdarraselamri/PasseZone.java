@@ -5,6 +5,7 @@
  */
 package bourgeatdarraselamri;
 import java.util.*;
+import java.util.Scanner;
 
 /**
  *
@@ -57,7 +58,56 @@ public class PasseZone extends Passe {
     } 
     
     @Override
-    public void charger() {
-       
+    public void charger() { 
+         String zones ;
+         if ((zone_1==true)) 
+             zones = "le pass marche dans la zone 1 "; 
+         if ((zone_2==true)) 
+             zones = "le pass marche dans la zone 2 ";  
+         if ((zone_1==false)&&(zone_2==false)) 
+             zones = "le pass n'est pas activee "; 
+         else 
+             zones = "daamm"; 
+         
+         System.out.println(zones);
+         System.out.println("voulez vous activer votre pass taper 1 | changer de zone taper 2 | desactiver votre pass taper 3 | sortir taper 4");
+        Scanner s = new Scanner(System.in); 
+        int   longeur = s.nextInt();  
+        if(longeur==2) {
+            if ((zone_1==true)) {
+                zone_1 = false ;
+                zone_2 =true ;
+            } 
+            if ((zone_2==true)) {
+                zone_1 = true ;
+                zone_2 =false ;
+            } 
+            else {
+                 System.out.println("ce n'est pas possible");
+            }
+                    
+                
+        }  
+        if (longeur ==1){
+            act= true;
+        }  
+        if (longeur ==3){
+            act= false;
+        }  
+        else {
+                             System.out.println("retour sur le menu principal");
+        }
+        
+        if ((zone_1==true)) 
+             zones = "le pass marche dans la zone 1 "; 
+         if ((zone_2==true)) 
+             zones = "le pass marche dans la zone 2 ";  
+         if ((zone_1==false)&&(zone_2==false)) 
+             zones = "le pass n'est pas activee "; 
+         else 
+             zones = "daamm"; 
+         
+         System.out.println(zones);
+           
     }
 }
